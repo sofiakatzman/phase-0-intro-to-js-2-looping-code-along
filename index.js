@@ -1,6 +1,6 @@
 // Code your solutions in this file`
+const letterTo = ['Charlie', 'Samip', 'Ali']
 
-const gifter = ["Charlie", "Samip", "Ali"];
 
 function writeCards(gifter) {
     const messages = [];
@@ -11,14 +11,10 @@ function writeCards(gifter) {
 return(messages);
 }
 
-
-
 function countDown(countingInt) {
-var i = countingInt 
-//console.log(`${countingInt}`); 
-while (i > -1 ) {    
-        console.log(i);
-        i --;        
-  } 
-}
-
+    var i = countingInt 
+    while (i > -1 ) {    
+            console.log(i);
+            i --;        
+      } 
+    }
